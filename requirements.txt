@@ -1,0 +1,6 @@
+aiogram
+python-dotenv
+aiohttp
+pydantic
+sqlalchemy[asyncio]
+psutil
