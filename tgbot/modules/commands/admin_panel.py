@@ -38,7 +38,7 @@ async def admin_panel_handler(message: types.Message):
         return
 
     await message.reply(
-        "Управляющий нашей конторой, действуй",
+        "Используйте кнопки ниже для выполнения необходимых действий",
         reply_markup=admin_panel_main_keyboard(
             user.can_create_tasks,
             user.can_create_contests,
