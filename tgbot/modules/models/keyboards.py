@@ -223,5 +223,5 @@ def admin_panel_main_keyboard(
     if manage_permissions or owner:
         keyboard[1].append(KeyboardButton(text="Управление пользователями"))
     if owner:
-        keyboard[1].append(KeyboardButton(text="Для царя"))
+        keyboard[1].append(KeyboardButton(text="Для владельца"))
     return ReplyKeyboardMarkup(keyboard=keyboard, resize_keyboard=True)
