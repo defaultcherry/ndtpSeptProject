@@ -6,3 +6,4 @@ storage/*
 *.db
 test.py
 .ruff_cache/*
+*.zip
